@@ -103,7 +103,7 @@
 
 
 .quotes{
-  margin-top: 24px;
+  margin-top: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,8 +111,22 @@
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
+  padding: 16px 24px;
 }
 
+.aaron{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aaron blockquote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .quotes h2{
   color: #1A759F;
 }
