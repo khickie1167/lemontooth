@@ -101,3 +101,18 @@
 }
 
 
+
+.quotes{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quotes h2{
+  color: #1A759F;
+}
