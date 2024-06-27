@@ -56,7 +56,7 @@
 .subnav {
   display: none;
   margin-top: 64px; /* Adjust this value based on the height of the navbar */
-  padding: 16px 24px;
+  padding: 24px 24px;
   background-color: #f4f4f4; /* Optional: for visual distinction */
 }
 
@@ -78,7 +78,7 @@
 
 
 .stats{
-  margin-top: 100px;
+  margin-top: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,6 +97,10 @@
 
 .stats h2{
   color: #1A759F;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
 }
 
 .headshot{
@@ -137,6 +141,9 @@
 }
 .quotes h2{
   color: #1A759F;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .callum{
@@ -156,3 +163,15 @@
 .block-span {
       display: block;
     }
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  width: 100%;
+  background-color: #1A759F;
+  font-size: 30px;
+  height: 64px;
+}
