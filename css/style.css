@@ -113,7 +113,7 @@ main {
 }
 
 .headshot {
-  margin-top: 64px;
+  margin-top: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,7 @@ main {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
-  padding: 16px 24px;
+  padding: 0px 24px;
   color: #333333;
 }
 
