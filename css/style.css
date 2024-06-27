@@ -25,7 +25,7 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1000; /* Ensure navbar is on top */
   height: 64px;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 300;
@@ -39,7 +39,7 @@ main {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  padding: 24px 24px;
+  padding: 16px 24px;
   align-items: center;
   width: 100%;
 }
@@ -64,9 +64,11 @@ main {
 
 .subnav {
   display: none;
-  padding: 0px 24px;
-  margin-top: 64px;
-  background-color: #f4f4f4;
+  position: sticky;
+  top: 64px; /* Height of the navbar */
+  z-index: 999;
+  padding: 24px 24px;
+  background-color: #f4f4f4; /* Optional: for visual distinction */
 }
 
 .subnav ul {
@@ -75,7 +77,7 @@ main {
 }
 
 .subnav ul li {
-  margin: 24px 0;
+  margin: 16px 0;
 }
 
 .subnav ul li a {
@@ -86,7 +88,7 @@ main {
 }
 
 .stats {
-
+  margin-top: 24px; /* Default margin when subnav is not expanded */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +113,7 @@ main {
 }
 
 .headshot {
-  margin-top: 24px;
+  margin-top: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,12 +129,12 @@ main {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
-  padding: 0px 24px;
+  padding: 16px 24px;
   color: #333333;
 }
 
 .aaron {
-  margin-top: 20px;
+  margin-top: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,15 +173,13 @@ main {
 }
 
 .footer {
-  margin-top: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 24px;
+  padding: 16px 24px;
   width: 100%;
   background-color: #1A759F;
   font-size: 30px;
   height: 64px;
 }
-
 
