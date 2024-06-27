@@ -130,3 +130,16 @@
 .quotes h2{
   color: #1A759F;
 }
+
+.callum{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callum blockquote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
