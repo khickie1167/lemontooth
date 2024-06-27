@@ -23,7 +23,7 @@
   font-weight: 300;
   font-style: normal;
   background-color: white;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid #52B69A;
 }
 
 .navbar ul {
@@ -87,7 +87,7 @@
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
-  border: 2px solid #76C893;
+  border: 2px solid #52B69A;
   width: 70%;
   height: 200px;
   margin-left: auto;
@@ -101,7 +101,6 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 100;
   font-style: normal;
-
 }
 
 .headshot{
@@ -109,7 +108,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D9ED92;
+  background-color: #52B69A;
 }
 
 
