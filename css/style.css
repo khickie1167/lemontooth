@@ -117,7 +117,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #52B69A;
+  background-color: transparent;
 }
 
 .quotes {
@@ -181,5 +181,6 @@ main {
   background-color: #1A759F;
   font-size: 30px;
   height: 64px;
+  margin-top: 24px;
 }
 
