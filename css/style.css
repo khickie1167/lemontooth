@@ -117,8 +117,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
+  background-color: deepskyblue;
+  border-radius: 10px;
+
 }
+
 
 .quotes {
   margin-top: 24px;
