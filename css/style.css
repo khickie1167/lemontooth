@@ -50,28 +50,14 @@ main {
   align-items: center;
 }
 
-.subnav ul {
-  list-style: none;
-  padding: 0;
-}
 
-.subnav ul li {
-  margin: 16px 0;
-}
-
-.subnav ul li a {
-  color: #52B69A;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
 
 .statssection{
   padding: 0px 24px;
 }
 
 .stats {
-  margin-top: 128px; /* Default margin when subnav is not expanded */
+  margin-top: 128px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,3 +164,23 @@ main {
 
 }
 
+
+audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 24px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.content h2{
+  color: deepskyblue;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
