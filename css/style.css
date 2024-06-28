@@ -38,7 +38,7 @@ main {
   list-style: none;
   text-decoration: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 16px 24px;
   align-items: center;
   width: 100%;
@@ -50,6 +50,11 @@ main {
   align-items: center;
 }
 
+.navbar ul li img{
+  height: 1em;
+  border-radius: 10px;
+
+}
 
 
 .statssection{
@@ -182,5 +187,5 @@ audio {
    display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 64px;
+  margin-top: 24px;
 }
