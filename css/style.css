@@ -8,7 +8,8 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  max-width: 1000px;
+  margin: auto;
 }
 
 main {
@@ -38,10 +39,12 @@ main {
   list-style: none;
   text-decoration: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 16px 24px;
   align-items: center;
   width: 100%;
+  margin: auto;
+  max-width: 1000px;
 }
 
 .navbar ul li {
@@ -189,3 +192,4 @@ audio {
   align-items: center;
   margin-top: 64px;
 }
+
